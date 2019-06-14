@@ -40,5 +40,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |list|
-    
+  array.collect do |term|
+    if array[1] == term
+      term
+    else
+      term + "s"
