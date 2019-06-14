@@ -35,4 +35,6 @@ end
 
 def sum_array(array)
   array.inject do |array1, array2|
-    sum array1
+    array1 + array2
+  end
+end
