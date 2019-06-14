@@ -45,3 +45,6 @@ def add_s(array)
       term
     else
       term + "s"
+    end
+  end
+end
