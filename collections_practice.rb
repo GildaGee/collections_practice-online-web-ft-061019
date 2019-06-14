@@ -38,3 +38,5 @@ def sum_array(array)
     array1 + array2
   end
 end
+
+def add_s
